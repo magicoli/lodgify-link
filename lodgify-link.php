@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Lodgify Link for WooCommerce
  * Plugin URI:      https://magiiic.com/wordpress/plugins/lodgify-link/
- * Description:     Synchronize accomodation bookings with Lodifgy
+ * Description:     Synchronize WooCommerce booking orders with Lodifgy
  * Author:          Magiiic
  * Author URI:      https://magiiic.com/
  * Text Domain:     lodgify-link

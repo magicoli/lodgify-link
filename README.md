@@ -1,7 +1,7 @@
 # Lodgify Link for WooCommerce
 
 - Contributors: magicoli69
-- Donate link: <https://magiiic.com/support/Lodgify Link+plugin>
+- Donate link: <https://magiiic.com/support/Lodgify+Link>
 - Tags: woocommerce, projects, product, donation
 - Requires at least: 4.5
 - Tested up to: 6.0.1
@@ -10,7 +10,7 @@
 - License: GPLv2 or later
 - License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
 
-Synchronize accomodation bookings with Lodifgy
+Synchronize WooCommerce booking orders with Lodifgy
 
 ## Description
 

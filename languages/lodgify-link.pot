@@ -2,17 +2,86 @@
 # This file is distributed under the same license as the Lodgify Link for WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Lodgify Link for WooCommerce 1.0\n"
+"Project-Id-Version: Lodgify Link for WooCommerce 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lodgify-link\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-07-19T19:14:15-04:00\n"
+"POT-Creation-Date: 2022-07-20T16:59:53-04:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 
 #. Plugin Name of the plugin
 msgid "Lodgify Link for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://magiiic.com/wordpress/plugins/lodgify-link/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Synchronize WooCommerce booking orders with Lodifgy"
+msgstr ""
+
+#. Author of the plugin
+msgid "Magiiic"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://magiiic.com/"
+msgstr ""
+
+#: includes/classes.php:52
+#: includes/classes.php:57
+msgid "Pay booking"
+msgstr ""
+
+#: includes/classes.php:71
+msgid "Lodgify Link"
+msgstr ""
+
+#: includes/classes.php:72
+msgid "Check to add booking id field to product page."
+msgstr ""
+
+#: includes/classes.php:101
+msgid "Amount"
+msgstr ""
+
+#: includes/classes.php:104
+msgid "Amount to pay"
+msgstr ""
+
+#: includes/classes.php:115
+msgid "Booking reference"
+msgstr ""
+
+#: includes/classes.php:119
+msgid "Enter a booking id"
+msgstr ""
+
+#: includes/classes.php:120
+msgid "Indicate the booking number received during reservation."
+msgstr ""
+
+#: includes/classes.php:136
+msgid "\"%s\" could not be added to the cart. Please provide a valid amount to pay."
+msgstr ""
+
+#: includes/classes.php:145
+msgid "\"%s\" could not be added to the cart. Please provide a booking id."
+msgstr ""
+
+#: includes/classes.php:181
+msgid "Booking #"
+msgstr ""
+
+#: includes/classes.php:194
+msgid "Booking"
+msgstr ""
+
+#: includes/classes.php:236
+msgid "From"
 msgstr ""
