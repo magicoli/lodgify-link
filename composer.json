@@ -1,0 +1,12 @@
+{
+  "name": "magicoli/lodgify-link",
+  "description": "Lodgify Link for WooCommerce",
+  "type": "wordpress-plugin",
+  "license": "AGPL-V3",
+  "authors": [
+    {
+      "name": "Olivier van Helden",
+      "email": "olivier@van-helden.net"
+    }
+  ]
+}
