@@ -88,7 +88,7 @@ class LOLI {
 		if(!loli_is_booking_product( wc_get_product( $post->ID ) )) return;
 
     $booking_id = (isset($_REQUEST['booking_id'])) ? esc_attr($_REQUEST['booking_id']) : NULL;
-		$amount = (isset($_REQUEST['amount'])) ? esc_attr($_REQUEST['amount']) : NULL;
+		$amount = (isset($_REQUEST['amount'])) ? esc_attr($_REQUEST['amount']) : ((isset($_REQUEST['nyp'])) ? esc_attr($_REQUEST['nyp']) : NULL);
 
     // $booking_id = isset( $_POST['loli_booking_id'] ) ? sanitize_text_field( $_POST['loli_booking_id'] ) : '';
 		printf(
@@ -165,7 +165,8 @@ class LOLI {
 
 		if(!empty($_POST['loli_amount'])) $cart_item_data['loli_amount'] = sanitize_text_field($_POST['loli_amount']);
     else if(!empty($_REQUEST['amount'])) $cart_item_data['loli_amount'] = sanitize_text_field($_REQUEST['amount']);
-
+		else if(!empty($_REQUEST['nyp'])) $cart_item_data['loli_amount'] = sanitize_text_field($_REQUEST['nyp']);
+		
     return $cart_item_data;
   }
 
