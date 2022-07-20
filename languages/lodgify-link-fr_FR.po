@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-07-20T16:59:53-04:00\n"
-"PO-Revision-Date: 2022-07-20 17:01-0400\n"
+"POT-Creation-Date: 2022-07-20T17:35:08-04:00\n"
+"PO-Revision-Date: 2022-07-20 17:35-0400\n"
 "Language: fr_FR\n"
 "X-Generator: Poedit 3.0.1\n"
 
@@ -65,17 +65,9 @@ msgstr "Entrez un numéro de réservation"
 msgid "Indicate the booking number received during reservation."
 msgstr "Indiquez le numéro de référence fourni lors de la réservation."
 
-#: includes/classes.php:136
-msgid "\"%s\" could not be added to the cart. Please provide a valid amount to pay."
-msgstr "\"%s\" n'a pas pu être ajouté au panier. Merci d'indiquer un montant à payer valide."
-
-#: includes/classes.php:145
-msgid "\"%s\" could not be added to the cart. Please provide a booking id."
-msgstr "\"%s\" n'a pas pu être ajouté au panier. Merci d'indiquer un numéro de réservation."
-
 #: includes/classes.php:181
-msgid "Booking #"
-msgstr "Réservation N°"
+msgid "Payment for booking #"
+msgstr "Paiement pour réservation n°"
 
 #: includes/classes.php:194
 msgid "Booking"
@@ -84,3 +76,12 @@ msgstr "Réservation"
 #: includes/classes.php:236
 msgid "From"
 msgstr "À partir de"
+
+#~ msgid "booking #"
+#~ msgstr "réservation n°"
+
+#~ msgid "\"%s\" could not be added to the cart. Please provide a valid amount to pay."
+#~ msgstr "\"%s\" n'a pas pu être ajouté au panier. Merci d'indiquer un montant à payer valide."
+
+#~ msgid "\"%s\" could not be added to the cart. Please provide a booking id."
+#~ msgstr "\"%s\" n'a pas pu être ajouté au panier. Merci d'indiquer un numéro de réservation."

@@ -166,7 +166,7 @@ class LOLI {
 		if(!empty($_POST['loli_amount'])) $cart_item_data['loli_amount'] = sanitize_text_field($_POST['loli_amount']);
     else if(!empty($_REQUEST['amount'])) $cart_item_data['loli_amount'] = sanitize_text_field($_REQUEST['amount']);
 		else if(!empty($_REQUEST['nyp'])) $cart_item_data['loli_amount'] = sanitize_text_field($_REQUEST['nyp']);
-		
+
     return $cart_item_data;
   }
 
@@ -177,10 +177,9 @@ class LOLI {
   static function cart_item_name( $name, $cart_item, $cart_item_key ) {
     if( isset( $cart_item['loli_booking_id'] ) ) {
       $name = sprintf(
-      '%s <span class=loli-booking-id>%s%s</span>',
-      $name,
-			__('Booking #', 'lodgify-link'),
-      esc_html( $cart_item['loli_booking_id'] ),
+				'<span class=loli-booking-id>%s%s</span>',
+				__('Payment for booking #', 'lodgify-link'),
+				esc_html( $cart_item['loli_booking_id'] ),
       );
     }
     return $name;

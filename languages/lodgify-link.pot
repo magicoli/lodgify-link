@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-07-20T16:59:53-04:00\n"
+"POT-Creation-Date: 2022-07-20T17:35:08-04:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 
@@ -66,16 +66,8 @@ msgstr ""
 msgid "Indicate the booking number received during reservation."
 msgstr ""
 
-#: includes/classes.php:136
-msgid "\"%s\" could not be added to the cart. Please provide a valid amount to pay."
-msgstr ""
-
-#: includes/classes.php:145
-msgid "\"%s\" could not be added to the cart. Please provide a booking id."
-msgstr ""
-
 #: includes/classes.php:181
-msgid "Booking #"
+msgid "Payment for booking #"
 msgstr ""
 
 #: includes/classes.php:194
