@@ -1,4 +1,4 @@
-booking_id<?php defined( 'LOLI_VERSION' ) || die;
+<?php defined( 'LOLI_VERSION' ) || die;
 
 function loli_is_booking_product($product_id) {
   // return true; // let's handle this later
@@ -122,32 +122,32 @@ class LOLI {
   }
 
   static function validate_custom_field( $passed, $product_id, $quantity ) {
-    if($passed && loli_is_booking_product( $product_id )) {
-      if(!empty($_POST['loli_booking_id'])) $booking_id = sanitize_text_field($_POST['loli_booking_id']);
-      else if(!empty($_REQUEST['booking_id'])) $booking_id = sanitize_text_field($_REQUEST['booking_id']);
-      else $booking_id = NULL;
-
-			if(!empty($_POST['loli_amount'])) $amount = sanitize_text_field($_POST['loli_amount']);
-      else if(!empty($_REQUEST['amount'])) $amount = sanitize_text_field($_REQUEST['amount']);
-      else $amount = NULL;
-			if(!is_numeric($amount) || $amount <= 0) {
-				$product_title = wc_get_product( $product_id )->get_title();
-				wc_add_notice( sprintf(
-          __('"%s" could not be added to the cart. Please provide a valid amount to pay.', 'lodgify-link'),
-          sprintf('<a href="%s">%s</a>', get_permalink($product_id), $product_title),
-        ), 'error' );
-        return false;
-			}
-			if( empty( $booking_id ) ) {
-        $product_title = wc_get_product( $product_id )->get_title();
-
-        wc_add_notice( sprintf(
-          __('"%s" could not be added to the cart. Please provide a booking id.', 'lodgify-link'),
-          sprintf('<a href="%s">%s</a>', get_permalink($product_id), $product_title),
-        ), 'error' );
-        return false;
-      }
-    }
+    // if($passed && loli_is_booking_product( $product_id )) {
+    //   if(!empty($_POST['loli_booking_id'])) $booking_id = sanitize_text_field($_POST['loli_booking_id']);
+    //   else if(!empty($_REQUEST['booking_id'])) $booking_id = sanitize_text_field($_REQUEST['booking_id']);
+    //   else $booking_id = NULL;
+		//
+		// 	if(!empty($_POST['loli_amount'])) $amount = sanitize_text_field($_POST['loli_amount']);
+    //   else if(!empty($_REQUEST['amount'])) $amount = sanitize_text_field($_REQUEST['amount']);
+    //   else $amount = NULL;
+		// 	if(!is_numeric($amount) || $amount <= 0) {
+		// 		$product_title = wc_get_product( $product_id )->get_title();
+		// 		wc_add_notice( sprintf(
+    //       __('"%s" could not be added to the cart. Please provide a valid amount to pay.', 'lodgify-link'),
+    //       sprintf('<a href="%s">%s</a>', get_permalink($product_id), $product_title),
+    //     ), 'error' );
+    //     return false;
+		// 	}
+		// 	if( empty( $booking_id ) ) {
+    //     $product_title = wc_get_product( $product_id )->get_title();
+		//
+    //     wc_add_notice( sprintf(
+    //       __('"%s" could not be added to the cart. Please provide a booking id.', 'lodgify-link'),
+    //       sprintf('<a href="%s">%s</a>', get_permalink($product_id), $product_title),
+    //     ), 'error' );
+    //     return false;
+    //   }
+    // }
     return $passed;
   }
 
