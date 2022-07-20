@@ -7,7 +7,7 @@
  * Author URI:      https://magiiic.com/
  * Text Domain:     lodgify-link
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         1.0
  *
  * @package         Product_Addons_Autofill
  *

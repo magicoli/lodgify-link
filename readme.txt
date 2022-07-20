@@ -44,5 +44,7 @@ From there, you can give you customer one of these links:
 
 == Changelog ==
 
+= 1.0 =
+
 = 0.1.0 =
 * Initial commit
